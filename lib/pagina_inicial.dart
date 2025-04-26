@@ -37,6 +37,38 @@ class PantallaI extends StatelessWidget {
               child: const Text('Ir a pantalla tres'),
             ),
           ),
+          Center(
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/pantalla4');
+              },
+              child: const Text('Ir a pantalla cuatro'),
+            ),
+          ),
+          Center(
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/pantalla5');
+              },
+              child: const Text('Ir a pantalla cinco'),
+            ),
+          ),
+          Center(
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/pantalla6');
+              },
+              child: const Text('Ir a pantalla seis'),
+            ),
+          ),
+          Center(
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/pantalla7');
+              },
+              child: const Text('Ir a pantalla siete'),
+            ),
+          ),
         ],
       ),
     );
