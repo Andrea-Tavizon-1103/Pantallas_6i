@@ -33,7 +33,7 @@ class _PantallaVIIState extends State<PantallaVII> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0x89a0a4b2),
+        backgroundColor: const Color(0x89a3a6b2),
         title: const Center(
           child: Text(
             'Pantalla Seis',
